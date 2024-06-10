@@ -135,3 +135,5 @@
 /Users/timothyatoyo/Desktop/Projects/invoice-master/obj/Debug/net8.0/invoice-master.pdb
 /Users/timothyatoyo/Desktop/Projects/invoice-master/obj/Debug/net8.0/invoice-master.genruntimeconfig.cache
 /Users/timothyatoyo/Desktop/Projects/invoice-master/obj/Debug/net8.0/ref/invoice-master.dll
+/Users/timothyatoyo/Desktop/Projects/invoice-master/bin/Debug/net8.0/package-lock.json
+/Users/timothyatoyo/Desktop/Projects/invoice-master/bin/Debug/net8.0/package.json

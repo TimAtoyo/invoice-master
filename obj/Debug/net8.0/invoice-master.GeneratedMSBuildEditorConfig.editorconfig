@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/timothyatoyo/Desktop/Projects/invoice-master
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Home/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Products/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Shared/Error.cshtml]

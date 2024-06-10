@@ -1,3 +1,4 @@
+using invoice_master.Models;
 using Microsoft.EntityFrameworkCore;
 namespace invoice_master.Data;
 //DbContedtClass to act as a bridge between entiry framework and the database
