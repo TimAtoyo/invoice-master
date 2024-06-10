@@ -5,7 +5,7 @@ services:
       volumes:
         - ./db_data:/var/opt/mssql/data
       ports:
-        - 1435:1435
+        - 1436:1436
       environment: 
         SA_PASSWORD: 'Nazarinebeats0!'
         ACCEPT_EULA: 'Y'
