@@ -40,6 +40,8 @@ Edit![alt text](/wwwroot/Images/edit.png)
 ### Delete Product
 Delete![Edit Product](/wwwroot/Images/delete.png)
 
+## Self Assesment
+Delete![Edit Product](/wwwroot/Images/assedment.png)
 ## Credits
 
 - [Timothy Atoyo](https://github.com/TimAtoyo/) - Developer
