@@ -13,9 +13,10 @@ public class ProductsController : Controller
         _context = context;
     }
     [HttpGet]
-    public async Task<IActionResult> Index(){
-       var Products = await _context.Products.ToListAsync();
-       return View(Products);
+    public async Task<IActionResult> Index()
+    {
+        var Products = await _context.Products.ToListAsync();
+        return View(Products);
     }
 
     [HttpPost]
@@ -39,12 +40,12 @@ public class ProductsController : Controller
     {
         return View();
     }
-
-    // public IActionResult Index()
-    // {
-    //     var products = _context.Products.ToList();
-    //     return View(products);
-    // }
+    
+    [HttpGet]
+    public IActionResult View(Guid Id)
+    {
+        return View();
+    }
 
     // [HttpPost]
     //     public IActionResult Create()
