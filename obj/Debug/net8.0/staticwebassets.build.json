@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SAVVVUlDXg51aWxHZEE4WbZbzFvzq5Iyc/VuSmV7uMo=",
+  "Hash": "YXieXn2gfPaZGA51PFcHYJ8XVgx2s/0Vfhk31pNBVfg=",
   "Source": "invoice-master",
   "BasePath": "_content/invoice-master",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/timothyatoyo/Desktop/Projects/invoice-master/wwwroot/Images/Home.png",
+      "SourceId": "invoice-master",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timothyatoyo/Desktop/Projects/invoice-master/wwwroot/",
+      "BasePath": "_content/invoice-master",
+      "RelativePath": "Images/Home.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Home.png"
     },
     {
       "Identity": "/Users/timothyatoyo/Desktop/Projects/invoice-master/wwwroot/js/site.js",

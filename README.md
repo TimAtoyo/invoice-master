@@ -27,9 +27,22 @@ To use the application:
 1. Access the application through your web browser.
 2. Follow the on-screen instructions to add, view, edit, and delete product information.
 
+### Home Product List 
+
+Home![Product List](/wwwroot/Images/Home.png)
+
+### Create Product
+Create![Create Product](/wwwroot/Images/create.png)
+
+### Edit Product
+Edit![alt text](/wwwroot/Images/edit.png)
+
+### Delete Product
+Delete![Edit Product](/wwwroot/Images/delete.png)
+
 ## Credits
 
-- [Your Name](https://github.com/TimAtoyo/) - Lead Developer
+- [Timothy Atoyo](https://github.com/TimAtoyo/) - Developer
 - [Docker](https://www.docker.com/) - Containerization Platform
 
 ## License

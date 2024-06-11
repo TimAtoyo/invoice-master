@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/invoice-master.bundle.scp.css"
     },
     {
+      "Id": "/Users/timothyatoyo/Desktop/Projects/invoice-master/wwwroot/Images/Home.png",
+      "PackagePath": "staticwebassets/Images/Home.png"
+    },
+    {
       "Id": "/Users/timothyatoyo/Desktop/Projects/invoice-master/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
