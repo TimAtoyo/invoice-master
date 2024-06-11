@@ -1,5 +1,7 @@
 using invoice_master.Data;
+using invoice_master.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
 public class ProductsController : Controller
@@ -10,11 +12,27 @@ public class ProductsController : Controller
     {
         _context = context;
     }
+    [HttpGet]
+    public async Task<IActionResult> Index(){
+       var Products = await _context.Products.ToListAsync();
+       return View(Products);
+    }
 
-    // public IActionResult Index()
-    // {
-    //     return View();
-    // }
+    [HttpPost]
+    public async Task<IActionResult> Add(Product addedProduct)
+    {
+        var product = new Product()
+        {
+            Name = addedProduct.Name,
+            Price = addedProduct.Price,
+            Description = addedProduct.Description,
+        };
+
+        await _context.Products.AddAsync(product);
+        await _context.SaveChangesAsync();
+        return RedirectToAction("Index");
+    }
+
 
     [HttpGet]
     public IActionResult Add()
