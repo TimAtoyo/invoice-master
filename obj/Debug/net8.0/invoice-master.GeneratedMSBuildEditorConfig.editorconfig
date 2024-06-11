@@ -30,16 +30,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Products/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQWRkLmNzaHRtbA==
+[/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Products/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/timothyatoyo/Desktop/Projects/invoice-master/Views/Shared/Error.cshtml]

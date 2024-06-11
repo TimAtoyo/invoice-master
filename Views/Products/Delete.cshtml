@@ -1,0 +1,35 @@
+@model invoice_master.Models.Product
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h2 class="mb-2">Add a Product</h2>
+    <div class="row my-5">
+        <div class="col-md-6">
+            <form method="post" asp-action="Delete">
+                <div class="form-group mb-3">
+                    <label for="name">Product Name</label>
+                    <input readonly asp-for="Name" type="text" class="form-control" placeholder="name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="price">Product Price</label>
+                    <input readonly asp-for="Price" type="number" class="form-control" placeholder="Price">
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div readonly class="form-group mt-3">
+                    <label for="Description">Product Description</label>
+                    <textarea readonly asp-for="Description" class="form-control" id="Description"
+                        placeholder="Add Description...." rows="7"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <form asp-action="DeleteConfirmed mt-4" asp-route-id="@Model.Id">
+                    <input type="submit" value="Delete" class="btn btn-danger" /> |
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </form>
+            </form>
+        </div>
+    </div>
+</div>
