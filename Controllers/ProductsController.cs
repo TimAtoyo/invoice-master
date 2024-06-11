@@ -99,8 +99,7 @@ public class ProductsController : Controller
             return NotFound();
         }
 
-        var product = await _context.Products
-            .FirstOrDefaultAsync(m => m.Id == id);
+        var product = await _context.Products.FirstOrDefaultAsync(m => m.Id == id);
         if (product == null)
         {
             return NotFound();
@@ -109,8 +108,8 @@ public class ProductsController : Controller
         return View(product);
     }
 
-    // POST: Products/Delete/5
-    [HttpPost, ActionName("DeleteConfirmed")]
+    // POST: Products/DeleteConfirmed/Guid
+    [HttpPost,  ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(Guid id)
     {
@@ -122,6 +121,6 @@ public class ProductsController : Controller
 
         _context.Products.Remove(product);
         await _context.SaveChangesAsync();
-        return RedirectToAction("Index");
+        return RedirectToAction(nameof(Index));
     }
 }

@@ -11,24 +11,24 @@
             <form method="post" asp-action="Delete">
                 <div class="form-group mb-3">
                     <label for="name">Product Name</label>
-                    <input readonly asp-for="Name" type="text" class="form-control" placeholder="name">
+                    <input asp-for="Name" type="text" class="form-control" placeholder="name">
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <div class="form-group mb-3">
                     <label for="price">Product Price</label>
-                    <input readonly asp-for="Price" type="number" class="form-control" placeholder="Price">
+                    <input asp-for="Price" type="number" class="form-control" placeholder="Price">
                     <span asp-validation-for="Price" class="text-danger"></span>
                 </div>
-                <div readonly class="form-group mt-3">
+                <div class="form-group mt-3">
                     <label for="Description">Product Description</label>
-                    <textarea readonly asp-for="Description" class="form-control" id="Description"
+                    <textarea asp-for="Description" class="form-control" id="Description"
                         placeholder="Add Description...." rows="7"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
-                <form asp-action="DeleteConfirmed mt-4" asp-route-id="@Model.Id">
-                    <input type="submit" value="Delete" class="btn btn-danger" /> |
-                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
-                </form>
+                <div class="d-flex justify-content-between">
+                    <button  type="submit" class="btn btn-primary mt-4">Delelt</button>
+                    <a asp-action="Index"  class="btn btn-success mt-4">Back To Products</a>
+                </div>
             </form>
         </div>
     </div>
