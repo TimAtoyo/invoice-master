@@ -40,28 +40,49 @@ public class ProductsController : Controller
     {
         return View();
     }
-    
+
     [HttpGet]
     public IActionResult View(Guid Id)
     {
         return View();
     }
 
-    // [HttpPost]
-    //     public IActionResult Create()
-    //     {
-    //         return View();
-    //     }
+    [HttpGet]
+    public async Task<IActionResult> Update(Guid Id)
+    {
+        var product = await _context.Products.FirstOrDefaultAsync(x => x.Id == Id);
 
-    // [HttpPost]
-    // public IActionResult Create(Product product)
-    // {
-    //     if (ModelState.IsValid)
-    //     {
-    //         _context.Products.Add(product);
-    //         _context.SaveChanges();
-    //         return RedirectToAction(nameof(Index));
-    //     }
-    //     return View(product);
-    // }
+        if (product != null)
+        {
+            var updateProduct = new Product()
+            {
+                Name = product.Name,
+                Price = product.Price,
+                Description = product.Description,
+            };
+
+            return View(product);
+        }
+        return RedirectToAction("Index");
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Update(Product product)
+    {
+        var updateProduct = await _context.Products.FindAsync(product.Id);
+
+        if (updateProduct != null)
+        {
+            {
+                updateProduct.Name = product.Name;
+                updateProduct.Price = product.Price;
+                updateProduct.Description = product.Description;
+                await _context.SaveChangesAsync();
+                return Redirect("Index");
+            };
+
+        }
+                return RedirectToAction("Index");
+    }
+
 }
